@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jonathan</title>
+    <link>https://lowj.github.io/posts/</link>
+    <description>Recent content in Posts on Jonathan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>You</copyright>
+    <lastBuildDate>Sun, 22 May 2022 16:56:54 +0000</lastBuildDate><atom:link href="https://lowj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Macbook Lightbar</title>
+      <link>https://lowj.github.io/posts/lightbar/</link>
+      <pubDate>Sun, 22 May 2022 16:56:54 +0000</pubDate>
+      
+      <guid>https://lowj.github.io/posts/lightbar/</guid>
+      <description>After 7 years my Early 2015 Macbook’s battery was barely working and on its last legs. After getting a new battery from iFixit I opened my MacBook and replaced it. I booted it up and noticed there was a bunch of smudges / damage on the screen. I realized that some of the alcohol I used during the installation process sept through the keyboard and got onto the screen and caused damage.</description>
+    </item>
+    
+    <item>
+      <title>OpenCV CUDA w/Jetson Nano</title>
+      <link>https://lowj.github.io/posts/cuda/</link>
+      <pubDate>Fri, 22 Apr 2022 16:56:54 +0000</pubDate>
+      
+      <guid>https://lowj.github.io/posts/cuda/</guid>
+      <description>[TODO]</description>
+    </item>
+    
+    <item>
+      <title>Lane Detection with OpenCV</title>
+      <link>https://lowj.github.io/posts/lanedetect/</link>
+      <pubDate>Tue, 22 Feb 2022 16:56:54 +0000</pubDate>
+      
+      <guid>https://lowj.github.io/posts/lanedetect/</guid>
+      <description>[WIP]
+Lane Detection with OpenCV
+[Intro]
+I basically used the common method I found through some quick searches (ref 1 2 3). I goes like along the lines of
+[Try list] Get Lane Image -&amp;gt; Preprocessing -&amp;gt; Canny Edge Detection -&amp;gt; Hough Line Detection -&amp;gt; Find Lane Lines -&amp;gt; Calculate Steering angle.
+Preprocessing The goal of the preprocessing step is to prepare the image for the rest of the steps.</description>
+    </item>
+    
+    <item>
+      <title>Quefrency custom case</title>
+      <link>https://lowj.github.io/posts/quefrency/</link>
+      <pubDate>Wed, 22 Sep 2021 16:56:54 +0000</pubDate>
+      
+      <guid>https://lowj.github.io/posts/quefrency/</guid>
+      <description>[TODO] https://github.com/lowJ/quefrency-low-pro</description>
+    </item>
+    
+    <item>
+      <title>Micromouse</title>
+      <link>https://lowj.github.io/posts/micromouse/</link>
+      <pubDate>Tue, 22 Jun 2021 16:56:54 +0000</pubDate>
+      
+      <guid>https://lowj.github.io/posts/micromouse/</guid>
+      <description>[TODO] https://github.com/micromouseuci/micromouse-kit</description>
+    </item>
+    
+    <item>
+      <title>LazyBoard V2</title>
+      <link>https://lowj.github.io/posts/lazy-boardv2/</link>
+      <pubDate>Sat, 22 May 2021 16:56:54 +0000</pubDate>
+      
+      <guid>https://lowj.github.io/posts/lazy-boardv2/</guid>
+      <description>[TODO] https://github.com/william-redenbaugh/lazy-board</description>
+    </item>
+    
+    <item>
+      <title>Thinkpad Keyboard</title>
+      <link>https://lowj.github.io/posts/tp_kb/</link>
+      <pubDate>Sat, 22 Feb 2020 16:56:54 +0000</pubDate>
+      
+      <guid>https://lowj.github.io/posts/tp_kb/</guid>
+      <description>[TODO] https://github.com/lowJ/tp-keyboard</description>
+    </item>
+    
+  </channel>
+</rss>
