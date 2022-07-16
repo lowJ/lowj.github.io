@@ -218,11 +218,8 @@
 <p>For the MCU I went with a generic Beetle USB ATMEGA32U4. This board gives easy access to USB pins and it was small enough to fit inside the MacBook. It also supports USB serial communication. For the LED strip I chose Adafruit Mini Skinny NeoPiexels (TODO link) since they have a smaller size than the standard strips.</p>
 <p>Wiring was pretty straightforward,</p>
 <p>[USB PORT]&lt;——&gt;[MCU]——&gt;[RGB Strip]</p>
-<p>Unfortunately I couldn’t find any way easily access the USB port connections so I had to cut off the metal shielding a bit.</p>
-<!-- raw HTML omitted -->
-<p>{{ $image := resources.Get &ldquo;wiring.jpeg&rdquo; }}
-&lt;img src=&quot;{{ ( $image.Resize &ldquo;500x q10&rdquo; ).RelPermalink }}&quot; /&gt;</p>
-<!-- raw HTML omitted -->
+<p>Unfortunately I couldn’t find any way easily access the USB port connections so I had to cut off the metal shielding a bit.
+<img src="/lb/wiring.jpeg" alt="Wiring"></p>
 <p>After putting it together here was the first prototype
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
