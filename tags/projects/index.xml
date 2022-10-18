@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Jonathan</title>
-    <link>http://example.org/tags/projects/</link>
+    <link>https://lowj.github.io/tags/projects/</link>
     <description>Recent content in Projects on Jonathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>You</copyright>
-    <lastBuildDate>Sun, 22 May 2022 16:56:54 +0000</lastBuildDate><atom:link href="http://example.org/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 May 2022 16:56:54 +0000</lastBuildDate><atom:link href="https://lowj.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Macbook Lightbar</title>
-      <link>http://example.org/posts/lightbar/</link>
+      <link>https://lowj.github.io/posts/lightbar/</link>
       <pubDate>Sun, 22 May 2022 16:56:54 +0000</pubDate>
       
-      <guid>http://example.org/posts/lightbar/</guid>
+      <guid>https://lowj.github.io/posts/lightbar/</guid>
       <description>After 7 years my Early 2015 Macbook’s battery was barely working and on its last legs. After getting a new battery from iFixit I opened my MacBook and replaced it. I booted it up and noticed there was a bunch of smudges / damage on the screen. I realized that some of the alcohol I used during the installation process sept through the keyboard and got onto the screen and caused damage.</description>
     </item>
     
     <item>
       <title>Micromouse</title>
-      <link>http://example.org/posts/micromouse/</link>
+      <link>https://lowj.github.io/posts/micromouse/</link>
       <pubDate>Tue, 22 Jun 2021 16:56:54 +0000</pubDate>
       
-      <guid>http://example.org/posts/micromouse/</guid>
+      <guid>https://lowj.github.io/posts/micromouse/</guid>
       <description>[TODO] https://github.com/micromouseuci/micromouse-kit</description>
     </item>
     
     <item>
       <title>LazyBoardV2 - Macropad w/ RGB OLED</title>
-      <link>http://example.org/posts/lazy-boardv2/</link>
+      <link>https://lowj.github.io/posts/lazy-boardv2/</link>
       <pubDate>Sat, 22 May 2021 16:56:54 +0000</pubDate>
       
-      <guid>http://example.org/posts/lazy-boardv2/</guid>
+      <guid>https://lowj.github.io/posts/lazy-boardv2/</guid>
       <description>Macropad featuring 12 hotswappable switches, a RGB OLED screen, and RGB for each key. Firmware written by my friend William
 Hardware: MCU - Teensy 4.0
 RGB OLED - SPI
@@ -43,10 +43,10 @@ Case: 3D printed PLA case. Consists of the main case to mount the PCB, plate to 
     
     <item>
       <title>Thinkpad Keyboard</title>
-      <link>http://example.org/posts/tp_kb/</link>
+      <link>https://lowj.github.io/posts/tp_kb/</link>
       <pubDate>Sat, 22 Feb 2020 16:56:54 +0000</pubDate>
       
-      <guid>http://example.org/posts/tp_kb/</guid>
+      <guid>https://lowj.github.io/posts/tp_kb/</guid>
       <description>[TODO] https://github.com/lowJ/tp-keyboard</description>
     </item>
     
