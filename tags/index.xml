@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jonathan</title>
-    <link>https://lowj.github.io/tags/</link>
+    <link>http://example.org/tags/</link>
     <description>Recent content in Tags on Jonathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>You</copyright>
-    <lastBuildDate>Sun, 22 May 2022 16:56:54 +0000</lastBuildDate><atom:link href="https://lowj.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 May 2022 16:56:54 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keyboard</title>
-      <link>https://lowj.github.io/tags/keyboard/</link>
+      <link>http://example.org/tags/keyboard/</link>
       <pubDate>Sun, 22 May 2022 16:56:54 +0000</pubDate>
       
-      <guid>https://lowj.github.io/tags/keyboard/</guid>
+      <guid>http://example.org/tags/keyboard/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://lowj.github.io/tags/projects/</link>
+      <link>http://example.org/tags/projects/</link>
       <pubDate>Sun, 22 May 2022 16:56:54 +0000</pubDate>
       
-      <guid>https://lowj.github.io/tags/projects/</guid>
+      <guid>http://example.org/tags/projects/</guid>
       <description></description>
     </item>
     

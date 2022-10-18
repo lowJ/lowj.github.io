@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jonathan</title>
-    <link>https://lowj.github.io/categories/</link>
+    <link>http://example.org/categories/</link>
     <description>Recent content in Categories on Jonathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>You</copyright>
-    <lastBuildDate>Sun, 22 May 2022 16:56:54 +0000</lastBuildDate><atom:link href="https://lowj.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 May 2022 16:56:54 +0000</lastBuildDate><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>-Project</title>
-      <link>https://lowj.github.io/categories/-project/</link>
+      <link>http://example.org/categories/-project/</link>
       <pubDate>Sun, 22 May 2022 16:56:54 +0000</pubDate>
       
-      <guid>https://lowj.github.io/categories/-project/</guid>
+      <guid>http://example.org/categories/-project/</guid>
       <description></description>
     </item>
     

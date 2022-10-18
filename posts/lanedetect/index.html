@@ -10,20 +10,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> Lane Detection with OpenCV | Jonathan</title>
-  <link rel = 'canonical' href = 'https://lowj.github.io/posts/lanedetect/'>
-  <meta name="description" content="Hi">
+  <link rel = 'canonical' href = 'http://example.org/posts/lanedetect/'>
+  <meta name="description" content="Currently a CSE major at UC Irvine. 
+   
+ Previously: Intern at Amazon, Northrop Grumman; Undergrad Researcher @ ASPIN Lab">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Lane Detection with OpenCV" />
 <meta property="og:description" content="[WIP]
 Lane Detection with OpenCV
-[Intro]
-I basically used the common method I found through some quick searches (ref 1 2 3). I goes like along the lines of
-[Try list] Get Lane Image -&gt; Preprocessing -&gt; Canny Edge Detection -&gt; Hough Line Detection -&gt; Find Lane Lines -&gt; Calculate Steering angle.
-Preprocessing The goal of the preprocessing step is to prepare the image for the rest of the steps." />
+[Intro] [Try list] Get Lane Image -&gt; Preprocessing -&gt; Canny Edge Detection -&gt; Hough Line Detection -&gt; Find Lane Lines -&gt; Calculate Steering angle.
+Preprocessing The goal of the preprocessing step is to prepare the image for the rest of the steps.
+Change to Grayscale [why] Gaussian Blur to and remove noise, the lane lines will stand out but any noise that was there will get blurred away." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lowj.github.io/posts/lanedetect/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://example.org/posts/lanedetect/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-02-22T16:56:54+00:00" />
 <meta property="article:modified_time" content="2022-02-22T16:56:54+00:00" />
 
@@ -32,17 +33,16 @@ Preprocessing The goal of the preprocessing step is to prepare the image for the
 <meta name="twitter:title" content="Lane Detection with OpenCV"/>
 <meta name="twitter:description" content="[WIP]
 Lane Detection with OpenCV
-[Intro]
-I basically used the common method I found through some quick searches (ref 1 2 3). I goes like along the lines of
-[Try list] Get Lane Image -&gt; Preprocessing -&gt; Canny Edge Detection -&gt; Hough Line Detection -&gt; Find Lane Lines -&gt; Calculate Steering angle.
-Preprocessing The goal of the preprocessing step is to prepare the image for the rest of the steps."/>
+[Intro] [Try list] Get Lane Image -&gt; Preprocessing -&gt; Canny Edge Detection -&gt; Hough Line Detection -&gt; Find Lane Lines -&gt; Calculate Steering angle.
+Preprocessing The goal of the preprocessing step is to prepare the image for the rest of the steps.
+Change to Grayscale [why] Gaussian Blur to and remove noise, the lane lines will stand out but any noise that was there will get blurred away."/>
 
   
   
     
   
   
-  <link rel="stylesheet" href="https://lowj.github.io/css/styles.c05d68261bf086a9d7713c4f8a6215a3601608e267a816a7ee58f139b3d1aae51222aae2081c8e0c6bd35e1334773b7a16283022f31f92afd93bb37e5e822e66.css" integrity="sha512-wF1oJhvwhqnXcTxPimIVo2AWCOJnqBan7ljxObPRquUSIqriCByODGvTXhM0dzt6FigwIvMfkq/ZO7N&#43;XoIuZg=="> 
+  <link rel="stylesheet" href="http://example.org/css/styles.c05d68261bf086a9d7713c4f8a6215a3601608e267a816a7ee58f139b3d1aae51222aae2081c8e0c6bd35e1334773b7a16283022f31f92afd93bb37e5e822e66.css" integrity="sha512-wF1oJhvwhqnXcTxPimIVo2AWCOJnqBan7ljxObPRquUSIqriCByODGvTXhM0dzt6FigwIvMfkq/ZO7N&#43;XoIuZg=="> 
 
   
   
@@ -54,7 +54,7 @@ Preprocessing The goal of the preprocessing step is to prepare the image for the
   
 
   
-<link rel="icon" type="image/png" href="https://lowj.github.io/images/favicon.ico" />
+<link rel="icon" type="image/png" href="http://example.org/images/favicon.ico" />
 
   
   
@@ -84,14 +84,14 @@ Preprocessing The goal of the preprocessing step is to prepare the image for the
       <ul>
         
         <li>
-          <a class="icon" href=" https://lowj.github.io/posts/quefrency/" aria-label="Previous">
+          <a class="icon" href=" http://example.org/posts/quefrency/" aria-label="Previous">
             <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
           </a>
         </li>
         
         
         <li>
-          <a class="icon" href="https://lowj.github.io/posts/cuda/" aria-label="Next">
+          <a class="icon" href="http://example.org/posts/cuda/" aria-label="Next">
             <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
           </a>
         </li>
@@ -122,47 +122,47 @@ Preprocessing The goal of the preprocessing step is to prepare the image for the
   
   
   <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f" aria-label="Facebook">
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f" aria-label="Facebook">
       <i class="fab fa-facebook " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&text=Lane%20Detection%20with%20OpenCV" aria-label="Twitter">
+    <a class="icon" href="https://twitter.com/share?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&text=Lane%20Detection%20with%20OpenCV" aria-label="Twitter">
       <i class="fab fa-twitter " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="Linkedin">
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="Linkedin">
       <i class="fab fa-linkedin " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&is_video=false&description=Lane%20Detection%20with%20OpenCV" aria-label="Pinterest">
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&is_video=false&description=Lane%20Detection%20with%20OpenCV" aria-label="Pinterest">
       <i class="fab fa-pinterest " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="mailto:?subject=Lane%20Detection%20with%20OpenCV&body=Check out this article: https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f" aria-label="Email">
+    <a class="icon" href="mailto:?subject=Lane%20Detection%20with%20OpenCV&body=Check out this article: http%3a%2f%2fexample.org%2fposts%2flanedetect%2f" aria-label="Email">
       <i class="fas fa-envelope " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="Pocket">
+    <a class="icon" href="https://getpocket.com/save?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="Pocket">
       <i class="fab fa-get-pocket " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="reddit">
+    <a class="icon" href="http://reddit.com/submit?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="reddit">
       <i class="fab fa-reddit " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&name=Lane%20Detection%20with%20OpenCV&description=%5bWIP%5d%0aLane%20Detection%20with%20OpenCV%0a%5bIntro%5d%0aI%20basically%20used%20the%20common%20method%20I%20found%20through%20some%20quick%20searches%20%28ref%201%202%203%29.%20I%20goes%20like%20along%20the%20lines%20of%0a%5bTry%20list%5d%20Get%20Lane%20Image%20-%26gt%3b%20Preprocessing%20-%26gt%3b%20Canny%20Edge%20Detection%20-%26gt%3b%20Hough%20Line%20Detection%20-%26gt%3b%20Find%20Lane%20Lines%20-%26gt%3b%20Calculate%20Steering%20angle.%0aPreprocessing%20The%20goal%20of%20the%20preprocessing%20step%20is%20to%20prepare%20the%20image%20for%20the%20rest%20of%20the%20steps." aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&name=Lane%20Detection%20with%20OpenCV&description=%5bWIP%5d%0aLane%20Detection%20with%20OpenCV%0a%5bIntro%5d%20%5bTry%20list%5d%20Get%20Lane%20Image%20-%26gt%3b%20Preprocessing%20-%26gt%3b%20Canny%20Edge%20Detection%20-%26gt%3b%20Hough%20Line%20Detection%20-%26gt%3b%20Find%20Lane%20Lines%20-%26gt%3b%20Calculate%20Steering%20angle.%0aPreprocessing%20The%20goal%20of%20the%20preprocessing%20step%20is%20to%20prepare%20the%20image%20for%20the%20rest%20of%20the%20steps.%0aChange%20to%20Grayscale%20%5bwhy%5d%20Gaussian%20Blur%20to%20and%20remove%20noise%2c%20the%20lane%20lines%20will%20stand%20out%20but%20any%20noise%20that%20was%20there%20will%20get%20blurred%20away." aria-label="Tumblr">
       <i class="fab fa-tumblr " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&t=Lane%20Detection%20with%20OpenCV" aria-label="Hacker News">
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&t=Lane%20Detection%20with%20OpenCV" aria-label="Hacker News">
       <i class="fab fa-hacker-news " aria-hidden="true"></i>
     </a>
   </li>
@@ -192,12 +192,6 @@ Preprocessing The goal of the preprocessing step is to prepare the image for the
         </div>
         
         
-        <div class="article-read-time">
-          <i class="far fa-clock"></i>
-          
-          2 minute read
-        </div>
-        
         
         
       </div>
@@ -208,8 +202,13 @@ Preprocessing The goal of the preprocessing step is to prepare the image for the
     <div class="content" itemprop="articleBody">
       <p>[WIP]</p>
 <p>Lane Detection with OpenCV</p>
-<p>[Intro]</p>
-<p>I basically used the common method I found through some quick searches (ref 1 2 3). I goes like along the lines of</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/UFAltQfSuWE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>[Intro]
+<img src="/ld/diagram.png" alt="t"></p>
 <p>[Try list]
 Get Lane Image -&gt; Preprocessing -&gt; Canny Edge Detection -&gt; Hough Line Detection -&gt; Find Lane Lines -&gt; Calculate Steering angle.</p>
 <p>Preprocessing
@@ -246,23 +245,6 @@ Red = Steering Angle</p>
 
 
 
-  <div class="blog-post-comments">
-    
-      <div id="cactus-comments-thread">
-  <script>
-  initComments({
-    node: document.getElementById("cactus-comments-thread"),
-    defaultHomeserverUrl: 'https:\/\/matrix.cactus.chat:8448',
-    serverName: 'cactus.chat',
-    siteName: "your_cactus_comments_sitename",
-    commentSectionId: "\/posts\/lanedetect\/"
-  })
-</script>
-</div>
-
-    
-  </div>
-
 
 
   <div id="footer-post-container">
@@ -293,47 +275,47 @@ Red = Steering Angle</p>
   
   
   <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f" aria-label="Facebook">
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f" aria-label="Facebook">
       <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&text=Lane%20Detection%20with%20OpenCV" aria-label="Twitter">
+    <a class="icon" href="https://twitter.com/share?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&text=Lane%20Detection%20with%20OpenCV" aria-label="Twitter">
       <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="Linkedin">
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="Linkedin">
       <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&is_video=false&description=Lane%20Detection%20with%20OpenCV" aria-label="Pinterest">
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&is_video=false&description=Lane%20Detection%20with%20OpenCV" aria-label="Pinterest">
       <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="mailto:?subject=Lane%20Detection%20with%20OpenCV&body=Check out this article: https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f" aria-label="Email">
+    <a class="icon" href="mailto:?subject=Lane%20Detection%20with%20OpenCV&body=Check out this article: http%3a%2f%2fexample.org%2fposts%2flanedetect%2f" aria-label="Email">
       <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="Pocket">
+    <a class="icon" href="https://getpocket.com/save?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="Pocket">
       <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="reddit">
+    <a class="icon" href="http://reddit.com/submit?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&title=Lane%20Detection%20with%20OpenCV" aria-label="reddit">
       <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&name=Lane%20Detection%20with%20OpenCV&description=%5bWIP%5d%0aLane%20Detection%20with%20OpenCV%0a%5bIntro%5d%0aI%20basically%20used%20the%20common%20method%20I%20found%20through%20some%20quick%20searches%20%28ref%201%202%203%29.%20I%20goes%20like%20along%20the%20lines%20of%0a%5bTry%20list%5d%20Get%20Lane%20Image%20-%26gt%3b%20Preprocessing%20-%26gt%3b%20Canny%20Edge%20Detection%20-%26gt%3b%20Hough%20Line%20Detection%20-%26gt%3b%20Find%20Lane%20Lines%20-%26gt%3b%20Calculate%20Steering%20angle.%0aPreprocessing%20The%20goal%20of%20the%20preprocessing%20step%20is%20to%20prepare%20the%20image%20for%20the%20rest%20of%20the%20steps." aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&name=Lane%20Detection%20with%20OpenCV&description=%5bWIP%5d%0aLane%20Detection%20with%20OpenCV%0a%5bIntro%5d%20%5bTry%20list%5d%20Get%20Lane%20Image%20-%26gt%3b%20Preprocessing%20-%26gt%3b%20Canny%20Edge%20Detection%20-%26gt%3b%20Hough%20Line%20Detection%20-%26gt%3b%20Find%20Lane%20Lines%20-%26gt%3b%20Calculate%20Steering%20angle.%0aPreprocessing%20The%20goal%20of%20the%20preprocessing%20step%20is%20to%20prepare%20the%20image%20for%20the%20rest%20of%20the%20steps.%0aChange%20to%20Grayscale%20%5bwhy%5d%20Gaussian%20Blur%20to%20and%20remove%20noise%2c%20the%20lane%20lines%20will%20stand%20out%20but%20any%20noise%20that%20was%20there%20will%20get%20blurred%20away." aria-label="Tumblr">
       <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2flowj.github.io%2fposts%2flanedetect%2f&t=Lane%20Detection%20with%20OpenCV" aria-label="Hacker News">
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2fexample.org%2fposts%2flanedetect%2f&t=Lane%20Detection%20with%20OpenCV" aria-label="Hacker News">
       <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
     </a>
   </li>
