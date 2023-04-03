@@ -2,36 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jonathan</title>
-    <link>https://lowj.github.io/</link>
+    <link>http://example.org/</link>
     <description>Recent content on Jonathan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>You</copyright>
-    <lastBuildDate>Sun, 22 May 2022 16:56:54 +0000</lastBuildDate><atom:link href="https://lowj.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2023 16:56:54 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thinkpad Keyboard</title>
+      <link>http://example.org/posts/tp_kb/</link>
+      <pubDate>Wed, 22 Mar 2023 16:56:54 +0000</pubDate>
+      
+      <guid>http://example.org/posts/tp_kb/</guid>
+      <description>tp-keyboard ! The goal of this project is to make a useable desktop keyboard from the keyboard of the ThinkPad L420 laptop and making the trackpoint functional.
+I originally started this project back in early 2020 where I spent alot of time decoding the Keyboard matrix and figuring out the pinout of the trackpoint module. I created a breakout board to easily access the pins of the keyboards FFC cable which made it easier to work with while decoding the matrix.</description>
+    </item>
+    
     <item>
       <title>Macbook Lightbar</title>
-      <link>https://lowj.github.io/posts/lightbar/</link>
+      <link>http://example.org/posts/lightbar/</link>
       <pubDate>Sun, 22 May 2022 16:56:54 +0000</pubDate>
       
-      <guid>https://lowj.github.io/posts/lightbar/</guid>
+      <guid>http://example.org/posts/lightbar/</guid>
       <description>After 7 years my Early 2015 Macbook’s battery was barely working and on its last legs. After getting a new battery from iFixit I opened my MacBook and replaced it. I booted it up and noticed there was a bunch of smudges / damage on the screen. I realized that some of the alcohol I used during the installation process sept through the keyboard and got onto the screen and caused damage.</description>
     </item>
     
     <item>
       <title>OpenCV CUDA w/Jetson Nano</title>
-      <link>https://lowj.github.io/posts/cuda/</link>
+      <link>http://example.org/posts/cuda/</link>
       <pubDate>Fri, 22 Apr 2022 16:56:54 +0000</pubDate>
       
-      <guid>https://lowj.github.io/posts/cuda/</guid>
+      <guid>http://example.org/posts/cuda/</guid>
       <description>[TODO]</description>
     </item>
     
     <item>
       <title>Lane Detection with OpenCV</title>
-      <link>https://lowj.github.io/posts/lanedetect/</link>
+      <link>http://example.org/posts/lanedetect/</link>
       <pubDate>Tue, 22 Feb 2022 16:56:54 +0000</pubDate>
       
-      <guid>https://lowj.github.io/posts/lanedetect/</guid>
+      <guid>http://example.org/posts/lanedetect/</guid>
       <description>[WIP]
 Lane Detection with OpenCV
 [Intro] [Try list] Get Lane Image -&amp;gt; Preprocessing -&amp;gt; Canny Edge Detection -&amp;gt; Hough Line Detection -&amp;gt; Find Lane Lines -&amp;gt; Calculate Steering angle.
@@ -41,10 +51,10 @@ Change to Grayscale [why] Gaussian Blur to and remove noise, the lane lines will
     
     <item>
       <title>Quefrency custom case</title>
-      <link>https://lowj.github.io/posts/quefrency/</link>
+      <link>http://example.org/posts/quefrency/</link>
       <pubDate>Wed, 22 Sep 2021 16:56:54 +0000</pubDate>
       
-      <guid>https://lowj.github.io/posts/quefrency/</guid>
+      <guid>http://example.org/posts/quefrency/</guid>
       <description>The Quefrency low pro case is a case for the quefrency v1 keyboard. It is designed to be low profile and have a 5 degree typing angle. The USB cut out is designed to be used with generic magnetic microusb cables. Using magnetic cables reduces the chance of breaking the micro usb port on the pro micro.
 [TODO: Add pictures]
 CAD + stls</description>
@@ -52,19 +62,19 @@ CAD + stls</description>
     
     <item>
       <title>Micromouse</title>
-      <link>https://lowj.github.io/posts/micromouse/</link>
+      <link>http://example.org/posts/micromouse/</link>
       <pubDate>Tue, 22 Jun 2021 16:56:54 +0000</pubDate>
       
-      <guid>https://lowj.github.io/posts/micromouse/</guid>
+      <guid>http://example.org/posts/micromouse/</guid>
       <description>[TODO] https://github.com/micromouseuci/micromouse-kit</description>
     </item>
     
     <item>
       <title>LazyBoardV2 - Macropad w/ RGB OLED</title>
-      <link>https://lowj.github.io/posts/lazy-boardv2/</link>
+      <link>http://example.org/posts/lazy-boardv2/</link>
       <pubDate>Sat, 22 May 2021 16:56:54 +0000</pubDate>
       
-      <guid>https://lowj.github.io/posts/lazy-boardv2/</guid>
+      <guid>http://example.org/posts/lazy-boardv2/</guid>
       <description>Macropad featuring 12 hotswappable switches, a RGB OLED screen, and RGB for each key. Firmware written by my friend William
 Hardware: MCU - Teensy 4.0
 RGB OLED - SPI
@@ -72,15 +82,6 @@ WS2812B RGB LEDs
 The board uses a daughter board to attach the RGB LEDs.
 Buttons and DIP switches in the back allow for USER profiles to be programmed in.
 Case: 3D printed PLA case. Consists of the main case to mount the PCB, plate to mount switches, and a shield for the screen.</description>
-    </item>
-    
-    <item>
-      <title>Thinkpad Keyboard</title>
-      <link>https://lowj.github.io/posts/tp_kb/</link>
-      <pubDate>Sat, 22 Feb 2020 16:56:54 +0000</pubDate>
-      
-      <guid>https://lowj.github.io/posts/tp_kb/</guid>
-      <description>[TODO] https://github.com/lowJ/tp-keyboard</description>
     </item>
     
   </channel>
