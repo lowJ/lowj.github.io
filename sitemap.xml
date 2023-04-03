@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/-project/</loc>
+    <loc>https://lowj.github.io/categories/-project/</loc>
     <lastmod>2023-03-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://lowj.github.io/categories/</loc>
     <lastmod>2023-03-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://lowj.github.io/</loc>
     <lastmod>2023-03-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/keyboard/</loc>
+    <loc>https://lowj.github.io/tags/keyboard/</loc>
     <lastmod>2023-03-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://lowj.github.io/posts/</loc>
     <lastmod>2023-03-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/projects/</loc>
+    <loc>https://lowj.github.io/tags/projects/</loc>
     <lastmod>2023-03-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://lowj.github.io/tags/</loc>
     <lastmod>2023-03-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/tp_kb/</loc>
+    <loc>https://lowj.github.io/posts/tp_kb/</loc>
     <lastmod>2023-03-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/lightbar/</loc>
+    <loc>https://lowj.github.io/posts/lightbar/</loc>
     <lastmod>2022-05-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/cuda/</loc>
+    <loc>https://lowj.github.io/posts/cuda/</loc>
     <lastmod>2022-04-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/lanedetect/</loc>
+    <loc>https://lowj.github.io/posts/lanedetect/</loc>
     <lastmod>2022-02-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/quefrency/</loc>
+    <loc>https://lowj.github.io/posts/quefrency/</loc>
     <lastmod>2021-09-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/micromouse/</loc>
+    <loc>https://lowj.github.io/posts/micromouse/</loc>
     <lastmod>2021-06-22T16:56:54+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/lazy-boardv2/</loc>
+    <loc>https://lowj.github.io/posts/lazy-boardv2/</loc>
     <lastmod>2021-05-22T16:56:54+00:00</lastmod>
   </url>
 </urlset>
