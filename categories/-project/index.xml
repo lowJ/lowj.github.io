@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>You</copyright>
-    <lastBuildDate>Wed, 22 Mar 2023 16:56:54 +0000</lastBuildDate><atom:link href="https://lowj.github.io/categories/-project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 May 2023 16:56:54 +0000</lastBuildDate><atom:link href="https://lowj.github.io/categories/-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wireless UART (Serial) for STM32/Arduino (HM-10)</title>
+      <link>https://lowj.github.io/posts/wireless_uart/</link>
+      <pubDate>Mon, 22 May 2023 16:56:54 +0000</pubDate>
+      
+      <guid>https://lowj.github.io/posts/wireless_uart/</guid>
+      <description>A guide to get wirless using UART communication using 2 HM-10 BLE modules.
+Initially I tried going the HC-05 route to get wireless UART communication on my projects, however I always ran into connection/powering issues with the HC-05.
+Recently I got the HM-10 bluetooth modules, which have worked much better for me. However one downside, compared to the HC-05, is that you will need 2 HM-10 modules and a Serial to USB cable in order to get wireless UART working.</description>
+    </item>
+    
     <item>
       <title>Thinkpad Keyboard</title>
       <link>https://lowj.github.io/posts/tp_kb/</link>
